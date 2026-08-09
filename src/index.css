@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background: #070B1F;
+
+    font-family: 'Outfit', sans-serif;
+
+    overflow-x: hidden;
+
+    color: white;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 6px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #00E5FF;
+
+    border-radius: 20px;
+
+}
+
+
+body {
+
+    background: #050816;
+
+    font-family: 'Outfit', sans-serif;
+
+    overflow-x: hidden;
+
+    color: white;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+@keyframes float{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+}
+
+@keyframes slowSpin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slowSpin 12s linear infinite;
+}
