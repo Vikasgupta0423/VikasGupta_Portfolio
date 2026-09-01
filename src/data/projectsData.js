@@ -299,7 +299,8 @@ export const projects = [
     color: "#22d3ee",
     secondaryColor: "#0ea5e9",
 
-    image: "/projects/projectimg1.png",
+    // image: "/projects/projectimg1.png",
+     image: `${import.meta.env.BASE_URL}projects/projectimg1.png`,
 
     github: "#",
     demo: "#",
@@ -358,7 +359,9 @@ export const projects = [
     color: "#8b5cf6",
     secondaryColor: "#7c3aed",
 
-    image: "/projects/projectimg2.png",
+    // image: "/projects/projectimg2.png",
+
+     image: `${import.meta.env.BASE_URL}projects/projectimg2.png`,
 
     github: "#",
     demo: "#",
@@ -414,7 +417,8 @@ export const projects = [
     color: "#10b981",
     secondaryColor: "#059669",
 
-    image: "/projects/projectimg2.png",
+    // image: "/projects/projectimg2.png",
+     image: `${import.meta.env.BASE_URL}projects/projectimg2.png`,
 
     github: "#",
     demo: "#",
@@ -473,7 +477,8 @@ export const projects = [
     color: "#f59e0b",
     secondaryColor: "#d97706",
 
-    image: "/projects/projectimg2.png",
+    // image: "/projects/projectimg2.png",
+     image: `${import.meta.env.BASE_URL}projects/projectimg2.png`,
 
     github: "#",
     demo: "#",
@@ -526,7 +531,8 @@ export const projects = [
     color: "#ec4899",
     secondaryColor: "#db2777",
 
-    image: "/projects/projectimg2.png",
+    // image: "/projects/projectimg2.png",
+     image: `${import.meta.env.BASE_URL}projects/projectimg2.png`,
 
     github: "#",
     demo: "#",
