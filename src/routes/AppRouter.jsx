@@ -25,22 +25,103 @@
 
 
 
+// import { createBrowserRouter } from "react-router-dom";
+
+// import Layout from "../layouts/layout";
+// import Home from "../Pages/Home";
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Layout />,
+//     children: [
+//       {
+//         index: true,
+//         element: <Home />
+//       },
+//     ],
+//   },
+// ]);
+
+// export default router;
+
+
+
+// import { createBrowserRouter } from "react-router-dom";
+
+// import Layout from "../layouts/layout";
+// import Home from "../Pages/Home";
+
+// const router = createBrowserRouter(
+//   [
+//     {
+//       path: "/",
+//       element: <Layout />,
+//       children: [
+//         {
+//           index: true,
+//           element: <Home />,
+//         },
+//       ],
+//     },
+//   ],
+//   {
+//     basename: "/VikasGupta_Portfolio/",
+//   }
+// );
+
+// export default router;
+
+
+// import { createBrowserRouter } from "react-router-dom";
+
+// import Layout from "../layouts/layout";
+// import Home from "../Pages/Home";
+
+// const router = createBrowserRouter(
+//   [
+//     {
+//       path: "/",
+//       element: <Layout />,
+//       children: [
+//         {
+//           index: true,
+//           element: <Home />,
+//         },
+//       ],
+//     },
+//   ],
+//   {
+//     basename: "/VikasGupta_Portfolio",
+//   }
+// );
+
+// export default router;
+
+
+
+
 import { createBrowserRouter } from "react-router-dom";
 
 import Layout from "../layouts/layout";
 import Home from "../Pages/Home";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          index: true,
+          element: <Home />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <Layout />,
-    children: [
-      {
-        index: true,
-        element: <Home />
-      },
-    ],
-  },
-]);
+    basename: "/",
+  }
+);
 
 export default router;

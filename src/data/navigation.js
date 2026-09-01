@@ -25,6 +25,58 @@
 //   },
 // ];
 
+
+
+
+
+
+// import {
+//   House,
+//   User,
+//   Code2,
+//   FolderKanban,
+//   Briefcase,
+//   Mail,
+// } from "lucide-react";
+
+// export const navigation = [
+//   {
+//     id: "home",
+//     title: "Home",
+//     icon: House,
+//   },
+//   {
+//     id: "journey",
+//     title: "Journey",
+//     icon: User,
+//   },
+//   {
+//     id: "skills",
+//     title: "Skills",
+//     icon: Code2,
+//   },
+//   {
+//     id: "projects",
+//     title: "Projects",
+//     icon: FolderKanban,
+//   },
+//   {
+//    id: "experience",
+//     title: "Experience",
+//     icon: Briefcase,
+//   },
+//   {
+//      id: "contact",
+//     title: "Contact",
+//     icon: Mail,
+//   },
+// ];
+
+
+
+
+
+
 import {
   House,
   User,
@@ -40,25 +92,26 @@ export const navigation = [
     title: "Home",
     icon: House,
   },
-  {
-    id: "about",
-    title: "Journey",
-    icon: User,
+    {
+   id: "experience",
+    title: "Experience",
+    icon: Briefcase,
+  },
+    {
+    id: "projects",
+    title: "Projects",
+    icon: FolderKanban,
   },
   {
     id: "skills",
     title: "Skills",
     icon: Code2,
   },
-  {
-    id: "projects",
-    title: "Projects",
-    icon: FolderKanban,
-  },
-  {
-   id: "experience",
-    title: "Experience",
-    icon: Briefcase,
+
+   {
+    id: "journey",
+    title: "Journey",
+    icon: User,
   },
   {
      id: "contact",

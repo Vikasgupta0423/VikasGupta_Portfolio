@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 html {
     scroll-behavior: smooth;
@@ -83,4 +83,83 @@ transform:translateY(-18px);
 
 .animate-slow-spin {
   animation: slowSpin 12s linear infinite;
+} */
+
+
+
+
+
+
+
+
+
+
+@import "tailwindcss";
+
+@theme {
+  /* Brand Theme Colors */
+  --color-primary-bg: #070B1F;
+  --color-card-bg: #0B132B;
+  --color-neon-cyan: #00E5FF;
+  --color-card-border: rgba(34, 211, 238, 0.2);
+
+  /* Font Family */
+  --font-outfit: "Outfit", sans-serif;
+
+  /* Custom Animations directly in Tailwind theme */
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-slow-spin: slowSpin 25s linear infinite;
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  @keyframes slowSpin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+/* Base Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-primary-bg);
+  font-family: var(--font-outfit);
+  overflow-x: hidden;
+  color: #FFFFFF;
+}
+
+/* Custom Cyan Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070B1F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00E5FF;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
 }

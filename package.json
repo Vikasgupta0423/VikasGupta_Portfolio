@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.1",
   "type": "module",
-  "homepage": "https://github.com/Vikasgupta0423/vikasPortfolio_v-1.1",
+  "homepage": "https://github.com/Vikasgupta0423.github.io/VikasGupta_Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
