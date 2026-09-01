@@ -66,7 +66,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
-   base: "/VikasGupta_Portfolio/",
+   base: "/saumya_gupta-portfolio/",
   plugins: [
     react({
       fastRefresh: false,
